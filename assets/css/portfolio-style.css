@@ -87,26 +87,22 @@ header nav ul li{
 
   
 /*Work section style*/
-.about{
+.about-me{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 50px;  
-    width: 90%;
-    align-items: center;
-  }
-  
-.flex-row {
-    display: flex;
-    justify-content: left;
-  }
-  
-.section-title {
-    font-size: 35px;
-    font-family:cursive;
-    color: #024e76;
-    margin: 0 0 0 80px;
-    width: 50%;
+    margin:10px;
+}
+.about-me h2{
+    /* flex:1 0 20%; */
+    border-right: 1px solid black;
+    flex: 20%;
+    font-size: 28px;
+    text-align: right;
+    padding-right: 15px;
+}
+.about-me p{
+    margin-left: 20px;
+    flex:70%;
+}
   }
   
 .projects { 
@@ -145,15 +141,7 @@ header nav ul li{
 .project:hover .hidden-text { 
     display: block;
 }
-
-  
-/*About section style*/
-.vl-border3 {
-    border-right: 3px solid #39a6b2;
-    height: 100px;
-    flex: 2 5%;
    
-  }
   
 .contact-info {
     flex: 150;
