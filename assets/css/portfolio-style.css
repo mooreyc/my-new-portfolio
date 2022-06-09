@@ -15,47 +15,44 @@
   }
   
   /* apply styles to <header> */
-  header {
-      padding: 20px 35px;
-      background-color: #0a2527;
-      display:flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-     
-    }
-  
-  header h1 {
-      font-weight: bold;
-      font-size: 36px;
-      color: var(--primary-color);
-      margin: 0;
-    }
-  
-  header nav {
-      margin: 7px 0;
-    }
-  
-  header nav ul {
+}
+
+/* header */
+header{
+    /* z-index: 9999;
+    position:-webkit-sticky;
+    position: sticky; */
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+}
+header h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size:40px;
+    margin-bottom:10px;
+}
+header a{
+    text-decoration:none;
+    color: var(--font-color);
+}
+header nav ul{
     list-style: none;
-    }
-  
-  header nav ul li a {
-      margin: 0 30px;
-      font-weight: lighter;
-      font-size: 1.3vw;
-      color: var(--primary-color);
-      text-decoration: none;
-      border-bottom: 2px solid;
-      padding-bottom: 2px;
-    }
-    
-  section {
-      padding :10px;
-  }
+    display: flex;
+    padding-left: 0;
+    font-size:20px;
+    margin-bottom: 0;
+    align-items: center;
+}
+header nav ul li a:hover{
+    font-style: italic;
+    color:var(--font-color);
+}
+header nav ul li{
+    border-bottom: 1px solid black;
+    padding-bottom:5px;
+    margin:0 auto 35px auto;
+}
 
   
 /*apply style to hero image*/
