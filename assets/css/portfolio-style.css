@@ -2,17 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--primary-color);
+    font-family: var(--font-choice), "Trebuchet MS", Verdana, sans-serif;
 }
 
 :root {
-    --primary-color: #3a9bdc;
+    --primary-color: #355c7d;
+    --secondary-color: #6c5b7b;
+    --tertiary-color: #c06c84;
+    --font-color: black;
+    --font-choice: Georgia;
   }
-  
-  body {
-      color: #3a9bdc;
-      font-family: Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      background-color: rgb(229, 232, 238);
-    }
   
   /* apply styles to <header> */
   header {
