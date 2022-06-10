@@ -114,6 +114,15 @@ header nav ul li{
     background: none;
     text-decoration: none;
 }
+
+}
+.projects .feature-hidden-text { 
+    font-size: 17px;
+    display: none;
+}
+.projects:hover .feature-hidden-text { 
+    display: block;
+}
 .single-project a{
     text-decoration: none;
     /* why didn't this work? */
