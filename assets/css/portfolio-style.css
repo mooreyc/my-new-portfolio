@@ -133,7 +133,7 @@ header nav ul li{
     /* Why didnt this work?? */
 }
 .project1{
-    background-image: url(./images/project1.webp);
+    background-image: url(/../../assets/images/horiseon.png);
 }
 .project2{
     background-image: url(./images/project2.jpg);
