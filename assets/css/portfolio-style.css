@@ -91,61 +91,10 @@ header nav ul li{
     flex:70%;
 }
 
-/* projects */
-.projects{
-    display:flex;
-    margin:10px;
-    align-items: center;
-}
-.projects h2{
-    border-right: 1px solid black;
-    flex: 20%;
-    font-size: 28px;
-    text-align: right;
-    padding-right: 15px;
-}
-.each_project{
-    display: flex;
-    flex: 70%;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.single-project h3{
-    background: none;
-    text-decoration: none;
-}
+/*
+projects
+*/
 
-}
-.project .hidden-text { 
-    font-size: 17px;
-    display: none;
-}
-.project:hover .hidden-text { 
-    display: block;
-}
-
-.single-project a{
-    text-decoration: none;
-    /* why didn't this work? */
-}
-.project1{
-    flex-basis:100%; 
-    /* Why didnt this work?? */
-}
-.project1{
-    background-image: url(/../../assets/images/horiseon.png);
-}
-.project2{
-    background-image: url(./images/project2.jpg);
-}
-.project3{
-    background-image: url(./images/project3.webp);
-}
-.project4{
-    background-image: url(./images/project4.jpg);
-}
-.project5{
-    background-image: url(./images/project5.jpg);
 }.projects { 
     width: 100%;
     margin: 0 auto;
